@@ -1,0 +1,5 @@
+node_modules/
+/dist/index.html
+/dist/main.js
+/tmp/*.mdx-code
+deck.mdx

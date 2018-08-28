@@ -1,0 +1,29 @@
+{
+  "private": false,
+  "version": "1.0.0",
+  "description": "Deck created with mdx-deck and Sanity",
+  "main": "package.json",
+  "scripts": {
+    "generate": "node markdownBuilder > deck.mdx",
+    "start": "npm run generate && npm run build && node server.js",
+    "local": "npm run generate && npm run build && mdx-deck deck.mdx",
+    "build": "mdx-deck build --no-html deck.mdx",
+    "pdf": "mdx-deck pdf deck.mdx",
+    "image": "mdx-deck screenshot deck.mdx",
+    "help": "mdx-deck"
+  },
+  "keywords": ["mdx", "sanity", "markdown"],
+  "author": "Knut Melvær",
+  "license": "MIT",
+  "name": "sanity-and-mdx-deck",
+  "dependencies": {
+    "@sanity/block-content-to-markdown": "0.0.2",
+    "@sanity/client": "^0.132.8",
+    "@sanity/image-url": "^0.132.8",
+    "del": "^3.0.0",
+    "express": "^4.16.3",
+    "mdx-deck": "^1.6.9",
+    "mdx-deck-code-surfer": "^0.1.3",
+    "raw-loader": "^0.5.1"
+  }
+}
