@@ -6,7 +6,7 @@ const app = express()
 app.use(express.static(__dirname + '/dist'))
 
 app.get('/', function (request, response) {
-  response.sendfile(htmlDir + 'index.html')
+  response.sendFile(htmlDir + 'index.html')
 })
 
 var port = process.env.PORT || 3000
