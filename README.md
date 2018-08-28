@@ -9,7 +9,7 @@
 
 ### Add mdx-deck-schema to your sanity project
 
-* Copy and put [these files](https://github.com/kmelve/sanity-with-mdx-deck) in your schema-folder and import them to schema.js
+* Copy and put [these files](https://github.com/kmelve/sanity-with-mdx-deck/tree/master/deck-schemas) in your schema-folder and import them to schema.js
 
 ### Generate decks
 
