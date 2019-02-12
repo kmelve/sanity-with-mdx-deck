@@ -17,7 +17,7 @@
   "license": "MIT",
   "name": "sanity-and-mdx-deck",
   "dependencies": {
-    "@sanity/block-content-to-markdown": "0.0.2",
+    "@sanity/block-content-to-markdown": "0.0.5",
     "@sanity/client": "^0.140.7",
     "@sanity/image-url": "^0.140.0",
     "del": "^3.0.0",
