@@ -18,7 +18,7 @@
   "name": "sanity-and-mdx-deck",
   "dependencies": {
     "@sanity/block-content-to-markdown": "0.0.5",
-    "@sanity/client": "^0.140.8",
+    "@sanity/client": "^0.140.32",
     "@sanity/image-url": "^0.140.12",
     "del": "^3.0.0",
     "express": "^4.16.4",
